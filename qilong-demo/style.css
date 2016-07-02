@@ -1,0 +1,607 @@
+/* css reset www.admin10000.com */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+body { background:#fff; color:#555; font-size:14px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+td,th,caption { font-size:14px; }
+h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+a { color:#555; text-decoration:none; }
+a:hover { text-decoration:underline; }
+img { border:none; }
+ol,ul,li { list-style:none; }
+input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }
+table { border-collapse:collapse; }
+html {overflow-y: scroll;} 
+/* css common */
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+.clearfix { *zoom:1; }
+/*----------------------------------------------------------*/
+/*样式style*/
+/*头部*/
+.header{
+	width: 1020px;
+	height: 80px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+.logo{
+	width: 200px;
+	height: 100%;
+	float: left;
+	/*background-color: #ccc;*/
+	background-image: url("images/logo.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.navBar{
+	width: 820px;
+	height: 100%;
+	float: left;
+	/*background-color: #FFC;*/
+	font-family: "微软雅黑";
+}
+.navBar ul{
+	margin-top: 40px;
+}
+.navBar ul li{
+	display: block;
+	width: 12.4%;
+	float: left;
+}
+.navBar ul li a{
+	/*display: block;*/
+	padding-bottom: 5px;
+	height: 30px;
+	text-decoration: none;
+	text-align: center;
+}
+.navBar ul li a:hover{
+	border-bottom: 2px solid gray;
+}
+.body{
+	width: 1020px;
+	/*height: 50px;*/
+	margin: 0px auto;
+	/*overflow: hidden;*/
+}
+.slidePic{
+	height: 400px;
+	/*background-color: #fcc;*/
+}
+.teaPro{
+	margin-top: 50px;
+	height: 400px;
+	/*background-color: #faf;*/
+}
+.proHeade{
+	height: 45px;
+	background-color: red;
+	overflow: hidden;
+}
+.proName{
+	width: 200px;
+	height: 100%;
+	float: left;
+}
+.proList{
+	width: 500px;
+	float: right;
+	overflow: hidden;
+	height: 100%;
+}
+.proList li{
+	width: 100px;
+	float: left;
+	text-align: center;
+	height: 100%;
+	line-height: 45px;
+	font-family: "微软雅黑";
+	color: #45845c;
+	font-weight: 500;
+}
+.teaBanner{
+	height: 120px;
+	background-image: url("images/banner.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.teaAbout{
+	margin-top: 80px;
+	height: 750px;
+	/*background-color: #aaa;*/
+	position: relative;
+}
+.teaAbout>div{
+	position: absolute;
+}
+/*1*/
+.teawenhua{
+	/*background-color: #fdf;*/
+	left: 65px;
+	top: 0px;
+	height: 170px;
+	width: 670px;
+}
+.teawenhua .teaAboutPic{
+	height: 100%;
+	width: 68%;
+	float: left;
+	background-image: url("images/chawenhua.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.teawenhua .teaAboutContent{
+	float: left;
+	height: 100%;
+	width: 32%;
+}
+.teaAboutContent h3{
+	margin-left: 35px;
+	font-size: 22px;
+	color: #45845c;
+	font-family: "微软雅黑";
+	/*text-align: center;*/
+	padding: 5px 0px 0px 0px;
+}
+.teaAboutContent hr{
+	margin-left: 35px;
+	width: 150px;
+	border-color:#5A8068;
+}
+.teaAboutContent p{
+	text-indent: 2em;
+	font-size: 18px;
+	padding: 5px 5px;
+
+}
+/*2*/
+.teaxiangqing{
+	/*background-color: #dfd;*/
+	right: 65px;
+	top: 0px;
+	height: 346px;
+	width: 220px;
+}
+.teaxiangqing .teaAboutPic{
+	height: 170px;
+	background-image: url("images/gongsixiangqing.png");
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+}
+/*3*/
+.teagonggao{
+	right: 65px;
+	width: 220px;
+	/*background-color: #efe;*/
+	height: 342px;
+	top: 346px;
+	position: relative;
+}
+.teagonggao .teaAboutPic{
+	height: 100%;
+	background-image: url("images/xinxigonggao.png");
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+}
+.teagonggao .teaAboutContent{
+	position: absolute;
+	left: -393px;
+	top: 175px;
+}
+/*4*/
+.teazeren{
+	height: 514px;
+	left: 65px;
+	top: 170px;
+	width: 220px;
+	/*background-color: #ada;*/
+}
+.teazeren .teaAboutContent{
+	height: 173px;
+}
+.teazeren .teaAboutPic{
+	/*height: */
+	height: 341px;
+	background-image: url("images/shehuizeren.png");
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+}
+/*5*/
+.teashishi{
+	width: 450px;
+	height: 300px;
+	/*background-color: #eae;*/
+	top: 170px;
+	left: 285px;
+	background-image: url("images/shishijiankong.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	color: white;
+}
+.teashishi h3{
+	margin-top: 30px;
+	color: white;
+} 
+.teashishi hr{
+	border-color: white;
+}
+
+
+/*产品展示模块代码*/
+.fl{display:inline;float:left;margin-left: 20px;line-height: 30px;}
+.fr{display:inline;float:right}
+.cf:after{content:"";clear:both;display:block;height:0;overflow:hidden}
+.cf{zoom:1}
+.pb10{padding-bottom:10px}
+.mt10{margin-top:10px}
+/*main*/
+.lanrenzhijia{width:1020px;margin:0px auto;background:#fff;padding:15px 0px;}
+.lanrenzhijia .title{height:20px;border-bottom: 3px solid #e7e7e7;padding-bottom:10px;}
+.lanrenzhijia .title h2{ font-size: 23px;font-family: "微软雅黑";}
+.lanrenzhijia .title-list{ position: relative; top: 6px;}
+.lanrenzhijia .title-list li{font-size: 15px;color:#45845c;  font-family: "微软雅黑";width: 129px; line-height: 20px; text-align: center; float: left; display: inline;}
+.lanrenzhijia .title-list li.on{ color: #ff6600; font-weight: bold;}
+.lanrenzhijia .title-list p{position:absolute;top:24px;left:0px;width:146px;height:7px;border-top: 3px solid #45845C; overflow: hidden; text-align: center;}
+.lanrenzhijia .title-list b{display:inline-block;width:0;height:0;margin-top:-3px;border-style:solid dashed dashed dashed;border-width:9px;border-color: #45845C #fff #fff #fff;overflow: hidden;zoom: 1;font-size: 0;}
+.product{ height: 268px; position: relative; overflow: hidden; display: none; margin-top: 20px;}
+.product ul{ position: absolute; left: 45px;}
+.product-wrap .show{ display: block;}
+.product-wrap .product li{ float: left; display: inline; margin-left: 13px;background: #f3f3f3;border: 2px solid #fafafa; transition:0.4s;-webkit-transition:0.4s;-moz-transition: 0.4s;-o-transition: 0.4s;-ms-transition: 0.4s;}
+.product-wrap .product li.ml0{margin-left:0px;}
+.product-wrap .product li a.imgwrap{ overflow:hidden;display: block; width: 226px; height: 200px; background: #fff; text-align:center;}
+.product-wrap .product li p{padding-left: 15px;color: #45845C;line-height: 22px;}
+.product-wrap .product li p a{ color: #45845C; text-decoration: none;}
+.product-wrap .product li p a:hover{ color: #ff6600; text-decoration: none;}
+
+
+.teaMes{
+	height: 350px;
+	/*width: 800px;*/
+	/*background-color: #ffa;*/
+	background-image: url("images/fBanner.png");
+	background-repeat: no-repeat;
+	font-family: "微软雅黑";
+	font-size: 25px;
+	color: white;
+	
+	line-height: 60px;
+
+}
+.mes{
+	padding-top: 70px;
+	padding-left: 100px;
+}
+.tel{
+	text-indent: 80px;
+	height: 60px;
+	background-image: url("images/tel.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.email{
+	text-indent: 80px;
+	height: 60px;
+	margin-top: 10px;
+	/*width: 400px;*/
+	background-image: url("images/email.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.cTel{
+	text-indent: 80px;
+	height: 60px;
+	margin-top: 10px;
+	/*width: 400px;*/
+	background-image: url("images/ttel.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.footer{
+	width: 1020px;
+	margin: 0px auto;
+	background-color: #6d716d;
+	/*height: 100px;*/
+	padding: 10px 0px;
+}
+.footer p{
+	text-align: center;
+	color: white;
+	font-size: 12px;
+}
+.footer p a{
+	color: white;
+	font-weight: 900;
+}
+
+
+/*cate页样式*/
+.catePage{
+	font-family:"微软雅黑";
+	width: 1020px;
+	margin: 0px auto;
+	margin-bottom: 40px;
+	min-height: 800px;
+
+}
+.headeBanner{
+	height: 300px;
+	background-image: url("images/cateBanner.png");
+	background-repeat: no-repeat;
+}
+.cateContainer{
+	margin-top: 30px;
+	overflow: hidden;
+}
+.cateSaide{
+	width: 300px;
+	/*height: 300px;*/
+	float: left;
+	/*background-color:#fcc;*/
+}
+.cateContent{
+	width: 720px;
+	/*height: 300px;*/
+	float: left;
+	/*background-color:#ffc;*/
+}
+.sideBac{
+	height: 80px;
+	background-image: url(images/titleBac.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	color: white;
+	font-size: 25px;
+	line-height: 80px;
+	text-align: center;
+}
+.sideList a{
+	/*border-bottom: 1px solid gray;*/
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 16px;
+	text-decoration: none;
+	background-image: url(images/listTitleBac.png);
+	background-repeat: no-repeat;
+	/*background-position: 270px center;*/
+	background-size: 106%;
+}
+.sideList a:hover{
+	color: #060606;
+}
+.whereY{
+	overflow: hidden;
+	background-image: url(images/catebb.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 100%;
+	height: 100px;
+}
+.whereY h3{
+	text-indent: 30px;
+	font-size: 16px;
+	float: left;
+	margin-top: 35px;
+	color: black;
+}
+.whereY span{
+	float: right;
+	font-size: 12px;
+	margin-right: 50px;
+}
+
+.artList ul{
+	overflow: hidden;
+	margin-top: 30px;
+}
+.artList ul li{
+	display: block;
+	overflow: hidden;
+	background-image: url(images/dotCate.png);
+	background-repeat: no-repeat;
+	background-position: 30px center
+}
+.artList ul li a{
+	float: left;
+	width: 600px;
+	height: 30px;
+	text-indent: 45px;
+	line-height: 30px;
+	overflow: hidden;
+}
+
+/*产品页的样式*/
+.proBox{
+	width: 33.33%;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+.procon{
+	display: block;
+	width: 95%;
+	margin: 0px auto;
+}
+.procon a{
+	text-decoration: none;
+}
+.procon:hover{
+	box-shadow: 0px 1px 4px #c6edf7;
+}
+.proPic{
+	height: 160px;
+	overflow: hidden;
+}
+.proPic img{
+	width: 100%;
+	display: block;
+}
+.procon h4{
+	font-size: 15px;
+	text-align: center;
+	height: 25px;
+	line-height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+/*面包学导航*/
+ul.breadcrumbs {
+list-style: none;
+padding: 0;
+margin: 0;
+font-size:12px;
+}
+ul.breadcrumbs li {
+float: left;
+margin: 0 5px 0 0;
+padding: 0;
+}
+
+
+
+
+/*single页*/
+.singlePage{
+    padding-top: 50px;
+    width: 100%;
+    overflow: hidden;
+}
+.singleBox{
+    margin: 0px auto;
+    overflow: hidden;
+    padding: 10px;
+}
+.singleBox h3{
+	font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+}
+.singleBox p{
+    margin-top: 25px;
+    line-height: 25px;
+    padding: 0px 20px;
+    text-indent: 1em;
+    margin-top: 10px;
+    text-indent: 32px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    line-height: 2em;
+}
+.singleBox img{
+    width: 70%;
+    display: block;
+    margin: 0px auto;
+}
+.artContent{
+    margin: 0px auto;
+    padding: 20px;
+    box-shadow: 0 0 2px gray;
+}
+.artContent p{
+    padding:0 15px;
+    text-indent: 2em;
+}
+.artContent p img{
+    width: 60%;
+    display: block;
+    height:auto;
+}
+.footer a{
+	text-decoration: none;
+}
+.artAT{
+    color: #969292;
+}
+@media screen and (max-width: 1300px){/*当屏幕尺寸小于600px时，应用下面的CSS样式*/
+  .con{
+        width: 33.33%;
+    }
+    .singleBox{
+        width: 80%;
+        margin: 0px auto;
+    }
+       .artContent p img{
+        /*display: none;*/
+    }
+}
+@media screen and (max-width: 1000px){/*当屏幕尺寸小于600px时，应用下面的CSS样式*/
+  .singlePage{
+        padding-top: 30px;
+        width: 100%;
+        overflow: hidden;
+    }
+    .singleBox{
+        width: 80%;
+        margin: 0px auto;
+    }
+    .heade #menu1{
+        width: 80%;
+        display: block;
+        overflow: hidden;
+        margin: 0px auto;
+    }
+}
+@media screen and (max-width: 700px){/*当屏幕尺寸小于600px时，应用下面的CSS样式*/
+  .singlePage{
+        padding-top: 20px;
+        width: 100%;
+        overflow: hidden;
+    }
+    .singleBox{
+        width: 95%;
+        margin: 0px auto;
+    }
+
+}
+.artImgs{
+        width: 35%;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 15px;
+        
+    }
+    .artImgs img{
+        box-shadow: 0px 0px 3px #3F5C9A;
+        width: 100%;
+        display: block;
+        margin-top: 15px;
+    }
+
+.companyIntro{
+	padding: 30px;
+}
+.companyIntro p{
+	text-indent: 2em;
+	font-size: 18px;
+	line-height: 25px;
+}
+.teashishi h3 a{
+	text-decoration: none;
+	color: white;
+	font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+    /*分页*/
+   .page_navi{overflow:hidden;width:100%;text-align:center}
+.page_navi a{height:36px;border:1px solid #DDD;-webkit-border-radius:12px;-moz-border-radius:12px;border-radius:12px;color:#888;text-decoration:none;line-height:36px;margin:2px;padding:3px 8px}
+.page_navi a:hover,.page_navi a.current{border:1px solid #FFBB76;color:#FF7200;font-weight:bolder}
